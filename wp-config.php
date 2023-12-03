@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress_1' );
+define( 'DB_NAME', 'rapid_pack_limited' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -83,7 +83,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define( 'UPLOADS', 'wp-content/uploads' );
 
 /* That's all, stop editing! Happy publishing. */
 
